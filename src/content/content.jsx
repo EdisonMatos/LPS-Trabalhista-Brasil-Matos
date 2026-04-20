@@ -499,7 +499,7 @@ const content = {
     },
     ctaSecondary: {
       miniTag: "FALE CONOSCO",
-      title: <h1>Fale agora com uma Advogada</h1>,
+      title: <h1>Não abra mais dos seus direitos</h1>,
       subtitle: (
         <div>
           <p className="mb-6 font-secondFont">
@@ -548,7 +548,7 @@ const content = {
       // titleDireita: (
       //   <h1 className="my-3 text-title5 font-mainFont">WhatsApp</h1>
       // ),
-      ctaButtonText: "Quero falar com Advogada agora",
+      ctaButtonText: "Quero receber os meus direitos",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
