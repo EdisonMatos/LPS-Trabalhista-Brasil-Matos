@@ -215,23 +215,27 @@ const content = {
       ctaButtonText: "A_Definir",
     },
     features: {
-      miniTag: "A_Definir",
+      miniTag: "RECUPERAÇÃO DE DIREITOS TRABALHISTAS",
       title: (
         <h1>
-          A_Definir
-          <span className="italic font-light destaque"> A_Definir</span>{" "}
-          A_Definir
+          Descubra
+          <span className="italic font-light destaque">
+            {" "}
+            como podemos te ajudar
+          </span>{" "}
         </h1>
       ),
-      subtitle: "A_Definir",
+      subtitle:
+        "Analisamos seu caso com estratégia para identificar valores não pagos e buscar seus direitos de forma rápida e segura.",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
       titleMessageFeature: "A_Definir",
       subtitleMessageFeature: "A_Definir",
       cards: {
         card1: {
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Verbas rescisórias não pagas",
+          subtitle:
+            "Receba valores de demissão que a empresa deixou de pagar ou calculou errado.",
           description: (
             <div>
               A_Definir
@@ -245,8 +249,9 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
         card2: {
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Horas extras e adicionais",
+          subtitle:
+            "Recupere horas extras, adicional noturno e outros valores ignorados no seu pagamento.",
           description: (
             <div>
               A_Definir
@@ -260,8 +265,9 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
         card3: {
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "FGTS e benefícios atrasados",
+          subtitle:
+            "Verifique depósitos não realizados e outros direitos que ficaram pendentes.",
           description: (
             <div>
               A_Definir <br />
@@ -274,8 +280,9 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
         card4: {
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Adicional de insalubridade",
+          subtitle:
+            "Se você trabalhou exposto a riscos, pode ter direito a até 40% a mais no salário.",
           description: (
             <div>
               A_Definir
@@ -289,8 +296,9 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
         card5: {
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Empregada doméstica e cuidadora",
+          subtitle:
+            "Falta de registro, horas extras e direitos não pagos são mais comuns do que parecem.",
           description: (
             <div>
               A_Definir
@@ -321,8 +329,9 @@ const content = {
           buttonLabel: "Saiba Mais",
         },
         card6: {
-          title: "A_Definir",
-          subtitle: "A_Definir",
+          title: "Assédio moral no trabalho",
+          subtitle:
+            "Situações humilhantes podem gerar indenização e até rescisão indireta do contrato.",
           description: (
             <div>
               A_Definir
@@ -353,7 +362,7 @@ const content = {
           subtitle: "A_Definir",
         },
       },
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Seja atendido(a) agora mesmo",
     },
     maps: {
       minitag: "A_Definir",
