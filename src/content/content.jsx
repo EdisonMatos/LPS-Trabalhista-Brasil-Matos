@@ -499,7 +499,7 @@ const content = {
     },
     ctaSecondary: {
       miniTag: "FALE CONOSCO",
-      title: <h1>Não abra mais dos seus direitos</h1>,
+      title: <h1>Não abra mão dos seus direitos</h1>,
       subtitle: (
         <div>
           <p className="mb-6 font-secondFont">
