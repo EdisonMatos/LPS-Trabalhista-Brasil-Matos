@@ -113,7 +113,7 @@ function Speed({ colorMode }) {
         <section className="">
           <SectionHeaderNovo
             miniTitle="ATENÇÃO MÁXIMA"
-            title="Situações especiais pedem auxílio especializado"
+            title="Veja se você se encaixa nessas situações"
             colorMode={colorMode}
           />
 
