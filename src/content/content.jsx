@@ -114,12 +114,12 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A_Definir",
+      miniTag: "Especialistas em Direito do Trabalho",
       title: (
         <h1>
-          A_Definir{" "}
+          Você pode ter{" "}
           <span className="relative italic font-light destaque">
-            A_Definir
+            dinheiro
             <span>
               <svg
                 className="absolute left-0 hidden w-full h-3 hero-underline bottom-2 text-accent/30 desktop1:flex"
@@ -147,22 +147,28 @@ const content = {
               </svg>
             </span>
           </span>{" "}
-          — A_Definir
+          a receber da empresa e ainda não sabe.
         </h1>
       ),
-      subtitle: <p>A_Definir</p>,
+      subtitle: (
+        <p>
+          Se você não agir agora, pode acabar perdendo direitos importantes.
+          Afinal, a empresa não vai te avisar que te deve valores — mas nós
+          vamos.
+        </p>
+      ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
       heroDefaultMobileImage: heroDefaultMobileImage, // img da pessoa mobile
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "A_Definir",
+      ctaButtonText: "Quero uma análise do meu caso agora",
       ctaButtonTextSecondary: "A_Definir",
       obsHero: {
         icon: <Check />,
         iconTwo: <Check />,
-        text: "A_Definir",
-        textTwo: " A_Definir",
+        text: "Atendimento em todo o Brasil",
+        textTwo: " Atuação estratégica na recuperação de valores trabalhistas",
       },
       secondaryCta: "Contato",
       images: {
