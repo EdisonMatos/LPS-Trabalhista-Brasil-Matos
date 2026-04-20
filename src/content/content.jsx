@@ -83,7 +83,7 @@ export const infos = {
   tiktokProfile: "",
 
   whatsappDefaultMessage:
-    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas sobre Direito Trabalhista.",
   whatsChatDefaultMessage:
     "Gostaria de falar conosco agora mesmo? Clque abaixo 👇",
   slogan: "",
@@ -369,14 +369,14 @@ const content = {
       ),
       SecondPartTitle: "",
       subtitle:
-        "Nosso compromisso é tornar esse momento mais leve, rápido e seguro para você.",
+        "Nosso compromisso é trazer justiça ao trabalhador, de forma estratégica e eficiente.",
       paragraph: (
         <div>
           <span className="flex items-center gap-2">
-            <Check /> <p>Atuação especializada em Direito de Família</p>
+            <Check /> <p>Atuação especializada em Direito Trabalhista</p>
           </span>
           <span className="flex items-center gap-2">
-            <Check /> <p>Experiência em divórcios online</p>
+            <Check /> <p>Experiência em bons acordos</p>
           </span>
           <span className="flex items-center gap-2">
             <Check /> <p>Atendimento ágil e personalizado</p>
@@ -488,8 +488,8 @@ const content = {
       subtitle: (
         <div>
           <p className="mb-6 font-secondFont">
-            Se você está pensando em se divorciar ou precisa de orientação, fale
-            conosco agora.
+            Se você está passando (ou já passou) por alguma injustiça no
+            trabalho, fale conosco agora.
           </p>
         </div>
       ),
@@ -500,7 +500,7 @@ const content = {
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Orientação clara sobre seus direitos no divórcio
+            Orientação clara sobre seus direitos trabalhistas
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
@@ -514,13 +514,6 @@ const content = {
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Divórcio online, sem audiências e sem desgaste emocional
-          </div>
-          <div className="flex items-start gap-2 mx-auto">
-            {" "}
-            <span className="p-1 border-2 rounded-full">
-              <Check className="" width={17} height={17} />
-            </span>{" "}
             Acompanhamento rápido pelo WhatsApp, do início ao fim
           </div>
           <div className="flex items-start gap-2 mx-auto">
@@ -528,7 +521,7 @@ const content = {
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Segurança para encerrar esse ciclo e seguir em frente
+            Segurança para fazer bons acordos
           </div>
         </div>
       ),
@@ -540,7 +533,7 @@ const content = {
       // titleDireita: (
       //   <h1 className="my-3 text-title5 font-mainFont">WhatsApp</h1>
       // ),
-      ctaButtonText: "Quero iniciar meu divórcio online",
+      ctaButtonText: "Quero falar com Advogada agora",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
@@ -559,24 +552,27 @@ const content = {
       subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas. ",
       questions: {
         question1: {
-          question: "Preciso sair de casa?",
+          question: "Preciso pagar algo para iniciar o processo?",
           answer:
-            "Não. Todo o processo pode ser feito 100% online, sem deslocamentos, filas ou desgaste desnecessário. Você resolve tudo com segurança e conforto, de onde estiver.",
+            "Na maioria dos casos, não. O atendimento inicial é para entender sua situação e, sendo viável, o processo pode ser iniciado sem pagamento antecipado — os honorários costumam ser cobrados apenas em caso de ganho da causa. Ou seja, você não precisa tirar dinheiro do bolso para buscar seus direitos.",
         },
         question2: {
-          question: "Quanto tempo demora?",
+          question:
+            "Mesmo já tendo recebido adicional de insalubridade, posso ter direito a valores maiores?",
           answer:
-            "O prazo varia conforme o tipo de divórcio, mas em muitos casos o processo é rápido e pode ser iniciado no mesmo dia após a análise da documentação.",
+            "Sim. Muitas empresas pagam o adicional de forma incorreta, em grau menor do que o devido ou sem considerar todos os fatores de risco. Uma análise técnica pode identificar diferenças que você tem direito de receber — inclusive retroativas.",
         },
         question3: {
-          question: "Precisa de audiência?",
+          question:
+            "Tenho medo de denunciar e sofrer ainda mais no trabalho. Compensa mesmo denunciar?",
           answer:
-            "Na maioria dos casos, não. O divórcio pode ser resolvido sem audiências, evitando exposição e situações desconfortáveis.",
+            "Esse é um medo comum — e totalmente compreensível. Mas o assédio não precisa continuar. Existem formas seguras de reunir provas e agir no momento certo, inclusive após o desligamento. Avaliar sua situação com um advogado ajuda a definir a melhor estratégia sem te expor desnecessariamente.",
         },
         question4: {
-          question: "Posso me divorciar mesmo sem acordo total?",
+          question:
+            "Trabalhei muitos anos como Empregada Doméstica/Cuidadora sem registro. Ainda posso cobrar meus direitos?",
           answer:
-            "Sim. Mesmo sem acordo em todos os pontos, é possível dar entrada no divórcio. Cada caso é analisado com cuidado para garantir seus direitos e a melhor solução possível.",
+            "Pode sim. Mesmo sem carteira assinada, o vínculo pode ser reconhecido na Justiça. Isso pode garantir direitos como férias, 13º, FGTS e até horas extras — tudo referente ao período trabalhado. O mais importante é reunir o máximo de provas possível.",
         },
       },
       paragraph: "Clique aqui caso tenha mais dúvidas",

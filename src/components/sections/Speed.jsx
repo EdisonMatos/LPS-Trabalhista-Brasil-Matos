@@ -1,40 +1,40 @@
-import React from 'react'
-import SectionArea from '../sectionElements/SectionArea'
-import SectionWrapper from '../sectionElements/SectionWrapper'
-import { Clock, Gavel, ShieldCheck } from 'lucide-react'
-import SectionHeaderNovo from '../sectionElements/SectionHeaderNovo'
-import MotionDivDownToUp from '../animation/MotionDivDownToUp'
+import React from "react";
+import SectionArea from "../sectionElements/SectionArea";
+import SectionWrapper from "../sectionElements/SectionWrapper";
+import { Clock, Gavel, ShieldCheck } from "lucide-react";
+import SectionHeaderNovo from "../sectionElements/SectionHeaderNovo";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 
 function Speed({ colorMode }) {
-  let backgroundMode, text, textOpacity, textDestaque, cardBg, iconBg
+  let backgroundMode, text, textOpacity, textDestaque, cardBg, iconBg;
   switch (colorMode) {
-    case 'light':
-      backgroundMode = 'bg-terciary/60'
-      text = 'text-corTitulosPreto'
-      textOpacity = 'text-corOutrosTextosPreto'
-      iconBg = 'bg-white text-primaryDark'
+    case "light":
+      backgroundMode = "bg-terciary/60";
+      text = "text-corTitulosPreto";
+      textOpacity = "text-corOutrosTextosPreto";
+      iconBg = "bg-white text-primaryDark";
 
-      break
-    case 'dark':
-      backgroundMode = 'bg-darkOpacity'
-      text = 'text-corTitulosBranca'
-      textOpacity = 'text-corOutrosTextosBranca'
-      iconBg = 'bg-darkOpacity text-primaryLight'
+      break;
+    case "dark":
+      backgroundMode = "bg-darkOpacity";
+      text = "text-corTitulosBranca";
+      textOpacity = "text-corOutrosTextosBranca";
+      iconBg = "bg-darkOpacity text-primaryLight";
 
-      break
+      break;
     default:
-      backgroundMode = 'bg-secondary/60'
-      text = 'text-corTitulosBranca'
-      textOpacity = 'text-corOutrosTextosBranca'
-      iconBg = 'bg-white text-primaryDark'
+      backgroundMode = "bg-secondary/60";
+      text = "text-corTitulosBranca";
+      textOpacity = "text-corOutrosTextosBranca";
+      iconBg = "bg-white text-primaryDark";
   }
   return (
     <SectionArea className={`${backgroundMode}`}>
       <SectionWrapper>
         <section className="">
           <SectionHeaderNovo
-            miniTitle="Rapidez e Praticidade"
-            title="Dependendo do caso, o divórcio pode ser resolvido:"
+            miniTitle="A_Definir"
+            title="A_Definir"
             colorMode={colorMode}
           />
           <div className="w-full mx-auto bg-white rounded-xl p-8 md:p-12 border relative overflow-hidden">
@@ -44,12 +44,12 @@ function Speed({ colorMode }) {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  text: 'Em poucos dias, conforme o tipo de divórcio',
+                  text: "Speed1",
                   icon: Clock,
                 },
-                { text: 'Sem audiência, na maioria dos casos', icon: Gavel },
+                { text: "A_Definir", icon: Gavel },
                 {
-                  text: 'Sem necessidade de comparecimento presencial',
+                  text: "A_Definir",
                   icon: ShieldCheck,
                 },
               ].map((item, idx) => (
@@ -80,7 +80,7 @@ function Speed({ colorMode }) {
         </section>
       </SectionWrapper>
     </SectionArea>
-  )
+  );
 }
 
-export default Speed
+export default Speed;
