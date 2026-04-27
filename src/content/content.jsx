@@ -611,8 +611,8 @@ const content = {
           icon: <Building />,
         },
         card4: {
-          title: "Direito Trabalhista",
-          icon: <BriefcaseBusiness />,
+          title: "Direito de Família e Sucessões",
+          icon: <User />,
         },
       },
       ctaButtonText: "Clique aqui e conheça nosso escritório",

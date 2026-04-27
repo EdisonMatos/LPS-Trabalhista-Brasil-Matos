@@ -46,6 +46,7 @@ const servicos = [
       "Se você trabalhou sem registro ou com direitos incompletos, pode ter valores a receber que nunca foram pagos corretamente.",
     checkItems: [
       "Trabalhou sem carteira assinada",
+      "Seus horários não seguiam um padrão",
       "Fazia horas extras sem receber",
       "Não recebeu férias ou 13º salário",
       "Dormia no trabalho sem compensação adequada",
@@ -117,15 +118,15 @@ function Speed({ colorMode }) {
             colorMode={colorMode}
           />
 
-          <div className="w-full mx-auto bg-white rounded-xl p-8 md:p-12 border relative overflow-hidden">
+          <div className="relative w-full p-8 mx-auto overflow-hidden bg-white border rounded-xl md:p-12">
             <section className="">
-              <div className="max-w-7xl mx-auto">
+              <div className="mx-auto max-w-7xl">
                 {/* Grid: 1 coluna no mobile, 3 colunas no desktop */}
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                   {servicos.map((servico) => (
                     <div
                       key={servico.id}
-                      className="bg-white border border-gray-200 p-8 flex flex-col h-full shadow-sm hover:shadow-md transition-shadow duration-300"
+                      className="flex flex-col h-full p-8 transition-shadow duration-300 bg-white border border-gray-200 shadow-sm hover:shadow-md"
                     >
                       {/* Ícone topo */}
                       <div className="flex justify-center mb-6">
@@ -136,19 +137,19 @@ function Speed({ colorMode }) {
                       </div>
 
                       {/* Título */}
-                      <h3 className="text-lg font-bold text-gray-900 text-center mb-4 leading-tight">
+                      <h3 className="mb-4 text-lg font-bold leading-tight text-center text-gray-900">
                         {servico.title}
                       </h3>
 
                       {/* Container flex-grow para empurrar o botão pro final */}
-                      <div className="flex-grow flex flex-col space-y-6 text-sm text-gray-600">
-                        <p className="text-center font-medium">
+                      <div className="flex flex-col flex-grow space-y-6 text-sm text-gray-600">
+                        <p className="font-medium text-center">
                           {servico.intro}
                         </p>
 
                         {/* Seção: Veja se você se encaixa */}
                         <div>
-                          <p className="font-bold text-gray-800 mb-2 flex items-center gap-2">
+                          <p className="flex items-center gap-2 mb-2 font-bold text-gray-800">
                             👉 Veja se você se encaixa:
                           </p>
                           <ul className="space-y-2">
@@ -165,8 +166,8 @@ function Speed({ colorMode }) {
                         </div>
 
                         {/* Seção: O que você pode receber */}
-                        <div className="border-t border-gray-100 pt-4">
-                          <p className="font-bold text-gray-800 mb-2 flex items-center gap-2">
+                        <div className="pt-4 border-t border-gray-100">
+                          <p className="flex items-center gap-2 mb-2 font-bold text-gray-800">
                             💰 O QUE VOCÊ PODE RECEBER:
                           </p>
                           <ul className="space-y-2">
@@ -183,11 +184,11 @@ function Speed({ colorMode }) {
                         </div>
 
                         {/* Seção: Importante */}
-                        <div className="bg-red-50 p-3 rounded-md border border-red-100 mt-4">
-                          <p className="font-bold text-red-800 mb-1 flex items-center gap-2 text-xs uppercase">
+                        <div className="p-3 mt-4 border border-red-100 rounded-md bg-red-50">
+                          <p className="flex items-center gap-2 mb-1 text-xs font-bold text-red-800 uppercase">
                             <AlertTriangle className="w-4 h-4" /> Importante
                           </p>
-                          <p className="text-red-700 text-xs leading-relaxed">
+                          <p className="text-xs leading-relaxed text-red-700">
                             {servico.important}
                           </p>
                         </div>
