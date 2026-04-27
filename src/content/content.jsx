@@ -510,28 +510,28 @@ const content = {
       ),
       container: (
         <div className="flex flex-col gap-3">
-          <div className="flex items-start gap-2 mx-auto">
+          <div className="flex items-start justify-start gap-2 tablet1:justify-center">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
             Orientação clara sobre seus direitos trabalhistas
           </div>
-          <div className="flex items-start gap-2 mx-auto">
+          <div className="flex items-start justify-start gap-2 tablet1:justify-center">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
             Atendimento humanizado e sigiloso com Advogada especializada
           </div>
-          <div className="flex items-start gap-2 mx-auto">
+          <div className="flex items-start justify-start gap-2 tablet1:justify-center">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
             Acompanhamento rápido pelo WhatsApp, do início ao fim
           </div>
-          <div className="flex items-start gap-2 mx-auto">
+          <div className="flex items-start justify-start gap-2 tablet1:justify-center">
             {" "}
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />

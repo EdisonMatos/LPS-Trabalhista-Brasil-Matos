@@ -42,7 +42,7 @@ function CtaNovoTemplate({ colorMode }) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="container mx-auto"
+            className="container flex flex-col items-center justify-center mx-auto "
           >
             <span
               className={`font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block ${miniTagCtaDark}`}
@@ -55,19 +55,21 @@ function CtaNovoTemplate({ colorMode }) {
               {content.texts.ctaSecondary.title}
             </h2>
             <p
-              className={`text-lg font-secondFont font-light md:text-xl max-w-2xl mx-auto mb-10 ${textOpacity}`}
+              className={`text-lg font-secondFont font-light md:text-xl max-w-2xl mx-auto  ${textOpacity}`}
             >
               {content.texts.ctaSecondary.subtitle}
             </p>
 
-            <div className={`rounded-lg p-4 mb-4 text-start font-secondFont`}>
+            <div
+              className={`rounded-lg p-4 mb-4 text-start font-secondFont max-w-[550px] `}
+            >
               {content.texts.ctaSecondary.container}
             </div>
 
             {/* <div>
               <FormAndAdress />
             </div> */}
-            <div className="flex flex-col gap-4 pt-4 w-fit justify-center items-center mx-auto">
+            <div className="flex flex-col items-center justify-center gap-4 pt-4 mx-auto w-fit">
               <ButtonReflexo
                 onClick={() => gtag_report_conversion()}
                 icon={
