@@ -55,9 +55,9 @@ export const infos = {
     <div>
       {/* <p>Endereço:</p> */}
       <p>
-        Av. Paulista, nº 1471, Conj. 1110, <br />
-        São Paulo - SP, <br />
-        CEP: 01311-927
+        Av. Paulista, nº 1471 <br />
+        Conj. 1110, Bela Vista <br />
+        São Paulo/SP, CEP 01311-927
       </p>
     </div>
   ),
