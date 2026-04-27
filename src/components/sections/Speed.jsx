@@ -83,6 +83,28 @@ const servicos = [
     important:
       "Mesmo sem provas formais, ainda é possível comprovar o assédio com testemunhas e outros meios.",
   },
+  {
+    id: 4,
+    icon: AlertTriangle,
+    title: "MESMO QUE VOCÊ NÃO SE ENCAIXE NAS SITUAÇÕES ANTERIORES",
+    intro:
+      "Se você trabalhou e sofreu qualquer tipo de injustiça no trabalho, pode ter valores a receber que a empresa nunca te informou.",
+    checkItems: [
+      "Fazia horas extras sem receber corretamente",
+      "Foi demitido e recebeu valores menores que o devido",
+      "Não recebeu férias ou 13º corretamente",
+      "Tinha descontos indevidos no salário",
+      "Trabalhou sem registro em carteira",
+    ],
+    receiveItems: [
+      "Horas extras e adicionais",
+      "Verbas rescisórias corrigidas",
+      "Valores retroativos",
+      "Outros direitos trabalhistas",
+    ],
+    important:
+      "Muitas empresas cometem erros ou omitem valores — e o trabalhador só descobre quando busca orientação.",
+  },
 ];
 
 function Speed({ colorMode }) {
@@ -122,7 +144,7 @@ function Speed({ colorMode }) {
             <section className="">
               <div className="mx-auto max-w-7xl">
                 {/* Grid: 1 coluna no mobile, 3 colunas no desktop */}
-                <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
                   {servicos.map((servico) => (
                     <div
                       key={servico.id}
