@@ -200,7 +200,7 @@ function FooterNovoTemplate({
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    className="transition-all duration-500 grayscale hover:grayscale-0"
+                    className=""
                   ></iframe>
                 </div>
               )}
